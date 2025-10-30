@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<nav>
+    <a href="index.html"><strong>Home</strong></a>
+    <a href="missionhill.html"><strong>MHHS</strong></a>
+  </nav>
+<body>
+
+    <h1 class='welcome'>Welcome to my Website!</h1>
+
+    <h3>About Me:</h3>
+    <div class="content">
+    <p class="intro-text">Hello! My name is Claire Stewart and I am a currently a senior at Northeastern University. I study Computer Science and Communications but am mainly focused on
+         Computer Science. I am originally
+        from outside of Philadelphia, but now live in Boston. My website will introduce one of my hobbies - which is dance! (Specifically Take it To the Floor)
+    Take it to the Floor is a greek life dance competition that takes place every semester. Take it to the Floor in the fall and Greek Sing and in the spring. 
+Each semester a sorority and fraternity are paired up to practice and perform a 6 minute long dance + skit. This year's theme is Disney Channel Original Movies and 
+my theme is Jump In. This is my third year participating in TITTF and I am so excited to perform again this year, it is my favorite part of being in a sorority! The competition raises money for the 
+Mission Hill Neighborhood Housing Service to give back to the local community where most students live. This is a great cause and I am proud to be a part of it! Donate to 
+Chi Omega and Delta Tau Delta's page if you would like to support us! 
+<a href="https://huskystarter.northeastern.edu/campaigns/chi-omega-and-delta-tau-delta">Donate Here!</a>
+    </p>
+
+    <div class="contact">
+        <h3><strong>Contact Information:</strong></h3>
+        <ul>
+            <li><strong>Email: </strong>stewart.cla@northeastern.edu</li>
+            <li><strong>GitHub: </strong>
+            <a href='https://github.com/clairestewart03'>Clairestewart03</a></li>
+        </ul>
+        </div>
+    </div>
+    <br />
+
+    <button id = 'navigationButton'>Learn more about Mission Hill Neighborhood Housing here!</button>
+    <script>
+        const navigationButton = document.getElementById('navigationButton')
+        navigationButton.addEventListener('click', function(){
+            window.location.href = 'missionhill.html';
+        }
+
+        )
+    </script>
+    <br/>
+    <br/>
+    <h4>Last Year's Performance!</h4>
+    <img class='dance' src="dance.jpeg" alt="Mission Hill Housing Service" width="400">
+
+
+
+    
+
+
+    
+</body>
+</html>
