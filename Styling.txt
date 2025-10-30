@@ -1,0 +1,11 @@
+Styling and Customization:
+- Used different font for website, Roboto
+- added borders and colors to contact information and photo
+- custom layout adjustments using flex boxes on both pages
+- created custom header with navigation links 
+
+Link to website:
+https://clairestewart03.github.io/ds4200-personal-website/index.html
+
+
+
